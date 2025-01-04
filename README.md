@@ -59,6 +59,6 @@ Connect the 5V to the wire where the arrow is
 Connect PIN 3 to the middle wire closest the 5V wire
 Connect GND to the remaining wire on the other side.
 
+![Photo of Wiring](./wiring%20photo.jpg)
 ![Example of wiring from Arduino Uno](./argb%20wiring%20diagram.png)
-
 

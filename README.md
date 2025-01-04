@@ -2,7 +2,7 @@
 
 This is code to have an Arduino control a slow crossfade on Coolermaster fans between a selected band of colours (hues), using the FastLed library
 
-## Quickstart
+## ▶️ Quickstart
 
 1. Wire the Arduino according to the diagram below
 2. Open a new project in Arduino IDE
@@ -16,7 +16,7 @@ The code is shared under the [NoHarm License](./LICENSE.md)
 
 See wiring diagrams and pictures below.
 
-## Components Needed
+## 🛒 Components Needed
 
 Aside from the fans themselves, you will need:
 
@@ -27,7 +27,7 @@ Aside from the fans themselves, you will need:
 
 Optionally, you may also want to get a [90mm x 65mm x 35mm project box](https://www.aliexpress.com/w/wholesale-90mm-65mm-plastic-project-box.html?spm=a2g0o.productlist.search.0) to stop the Arduino and the wires from rattling around loosely and falling apart.
 
-## Safety
+## 🦺 Safety
 
 Be sure not to overload your Arduino Uno or your power supply. You will need to add up the current you need for all the fans and the Arduino.
 
@@ -45,14 +45,14 @@ If you were sharing the same power supply to drive the fans also, then thats 0.4
 
 Also be sure to use it under supervision the first time you turn it on and check the temperature of the Uno after using for 20 minutes, just in case you've made a miscalculation.
 
-## Safe Power Supplies
+## ⚡️ Safe Power Supplies
 
 For safety, I always buy my 12V power supplies from a local New Zealand or Australian retailer. While I get other components off AliExpress because they're cheaper, I don't want to risk compromising safety on Power Supplies. Buying those locally ensures they're complying fully with electrical standards. 
 
 Cheap overseas powersupplies may skimp on the safety features that keep the 240V from the wall separate from the 12V of the project, and you really don't want those two things to mix.
 
 
-## Wiring
+## ➰ Wiring
 
 Connect the 5V to the wire where the arrow is
 (or if there is no arrow, to the outside wire nearest the middle wire)

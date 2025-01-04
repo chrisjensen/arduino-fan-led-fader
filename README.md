@@ -62,3 +62,8 @@ Connect GND to the remaining wire on the other side.
 ![Photo of Wiring](./wiring%20photo.jpg)
 ![Example of wiring from Arduino Uno](./argb%20wiring%20diagram.png)
 
+In a project box, with two holes drilled for the power and ARGB cables.
+
+![In a Project Box](https://github.com/user-attachments/assets/5073296f-4166-4101-8158-8ef51145763e)
+
+

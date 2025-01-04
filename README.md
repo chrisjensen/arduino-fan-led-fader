@@ -7,7 +7,7 @@ This is code to have an Arduino control a slow crossfade on Coolermaster fans be
 1. Wire the Arduino according to the diagram below
 2. Open a new project in Arduino IDE
 3. Open the Sketch Menu -> Include Library -> Manage Libraries and install the FastLed library
-4. Cope the [source code](./fan_light_fader.ino) into the editor
+4. Copy the [source code](./fan_light_fader.ino) into the editor
 5. Compile and Upload the code into the Arduino and watch the lights!
 
 

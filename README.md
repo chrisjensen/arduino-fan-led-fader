@@ -41,9 +41,30 @@ For example, the [Coolermaster Sickleflow ARGB specifications]([https://www.cool
 
 So if you had 2 fans connected, that would be 0.42 Amps, plus 0.05 Amps for the Arduino Uno itself totally 0.47 Amps which is pushing pretty close to the limit for a USB power supply.
 
+```text
+Total Current = 2x ARGB fans + Arduino Current
+  = 2x 0.42 + 0.05
+  = 0.47 Amps
+```
+
 If you were sharing the same power supply to drive the fans also, then thats 0.42 Amps for the ARGB LED's, 0.05 Amps for the Arduino and 0.74 Amps for the fans - totalling 1.21 Amps.
 
-Also be sure to use it under supervision the first time you turn it on and check the temperature of the Uno after using for 20 minutes, just in case you've made a miscalculation.
+```text
+Total Current = 2x ARGB fans + Arduino Current + 2x Fan safety current
+  = 2x 0.42 + 0.05 + 2x 0.37
+  = 1.21 Amps
+```
+
+A rule of thumb for safety is that you want your power supply to be able to supply 20% to 50% more current.
+
+```text
+Safe Current for Power Supply = 1.21 x 1.2 = 1.452
+Safe Current for Power Supply = 1.21 x 1.5 = 1.815
+```
+
+So you want a power supply that supplies at least 1.2 Amps if it's powering the fans and the LED's.
+
+Also be sure to use your DIY under supervision the first time you turn it on and check the temperature of the Arduino Uno after using for 20 minutes, just in case you've made a miscalculation.
 
 ## ⚡️ Safe Power Supplies
 
